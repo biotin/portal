@@ -7,8 +7,83 @@
   <%= csrf_meta_tag %>
 </head>
 <body>
+<div id="main_container">
+<div id="top_banner">
+		<div id="logo">
+        <a href="index.html"><img src="/images/logo.gif" width="100" height="81" border="0" alt="" /></a></div>
+      
+        <div class="snapshot">
+        </div>
+</div>
+<div class="navigation">
+ <ul>
+ <li class="current"><a href="index.html">Home</a></li>
+ <li><a href="about.html" >About Us</a></li>
+ <li><a href="contact.html" >Servides</a></li>
+ <li><a href="terms.html" >Clients</a></li>
+ <li><a href="support.html" >Support</a></li>
+ <li><a href="contact.html" >Contact Us</a></li>
+ </ul>
+</div>
+<div id="center_content">
+<div class="left_box1">
+<div class="title1">About Us</div>
+<p>
+<img src="/images/team.gif" border="0" class="pic2" title="p1" alt="p2" />
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+<div class="sidebox">
+<h3>Product information</h3>
+<ul>
+    <li><a href="#" title="">Product information</a></li>
+    <li><a href="#" title="">Key features</a></li>
+    <li><a href="#" title="">Modules overview</a></li>
+    <li><a href="#" title="">Version history</a></li>
+    <li><a href="#" title="">System requirements</a></li>
+</ul>
+</div>
+<div class="sidebox">
+<h3>Client login</h3>
+
+                    	<div id="login">
+                        Username:<br />
+		      			 <input type="text" name="user" class="input" />
+		       			<div class="clear"></div>
+		       			Password:<br />
+		      		 	<input type="password" name="pass"  class="input"/>
+                        
+		       			<div class="clear"></div>
+                       <input type="image" src="/images/login.gif" style="float:left; padding-top:5px;"  value="Order" />
+                        </div>
+</div>
+</div>
+<div class="left_box2">
+<div class="title1">Welcome to our site</div>
+<p>
+<img src="/images/p1.jpg" width="110" height="74" class="pic" alt=""  title=""/>
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." </p>
+
 
 <%= yield %>
-
+ <div class="title1">Partners</div>
+ <p>
+<img src="/images/1.jpg" width="82" height="54" alt=""  title=""/>
+<img src="/images/2.jpg" width="137" height="54" alt=""  title=""/>
+<img src="/images/3.jpg" width="114" height="54" alt=""  title=""/>
+<img src="/images/4.jpg" width="125" height="54" alt=""  title=""/>
+</p>     
+</div>
+<div style="width:500px; clear:both; padding-bottom:2px;"></div>
+</div>
+</div>
+<div id="footer">
+		<ul>
+			<li><a href="#" title="">Home</a></li>
+			<li><a href="#" title="">Products</a></li>
+			<li><a href="#" title="">News</a></li>
+			<li><a href="#" title="">Support</a></li>
+			<li><a href="#" title="">Contacts</a></li>
+</ul>
+Copyright 2011 &copy; Biotin  <br />
+</div>
 </body>
 </html>

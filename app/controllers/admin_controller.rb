@@ -1,6 +1,5 @@
-class NewsController < ApplicationController
-  skip_before_filter :authorize, only: [:index, :show]
-  # GET /news
+class AdminController < ApplicationController
+ # GET /news
   # GET /news.xml
   def index
     @news = News.paginate :page => params[:page], :per_page => 3, :order => 'date desc'

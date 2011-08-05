@@ -1,0 +1,13 @@
+<div class="title1">News </div> <%= link_to 'Adding new News', new_news_path %>
+<% @news.each do |news| %>
+<ul class="list">
+ <li><span><%= news.title %></span>
+  <ul>
+    <li  class="description"><%= news.description %></li>
+    <li  class="description"><%= news.date %> <%= link_to 'Show', news %> <%= link_to 'Edit', edit_news_path(news) %> <%= link_to 'Destroy', news, :confirm => 'Are you sure?', :method => :delete %></li>
+  </ul>
+ </li>
+</ul>
+<% end %>
+<%= will_paginate @news %>
+

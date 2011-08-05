@@ -1,6 +1,6 @@
 Portal::Application.routes.draw do
  get 'admin' => 'admin#index'
- 
+ get 'news' => 'news#index'
   controller :sessions do
     get  'login' => :new
     post 'login' => :create

@@ -1,5 +1,6 @@
 class ApplicationController < ActionController::Base
 # before_filter :authorize 
+# Activate this comment then pushing in to the server, after adding admin-user.
  protect_from_forgery
 
  protected

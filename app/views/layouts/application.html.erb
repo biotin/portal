@@ -42,6 +42,11 @@
     <li><a href="#" title="">Version history</a></li>
     <li><a href="#" title="">System requirements</a></li>
 </ul>
+<br /> 
+<%= form_tag index_path, :method => 'get' do %>
+<%= text_field_tag :search%>
+<%= submit_tag "Search"%>
+<%end%>
 </div>
 </div>
 </div>

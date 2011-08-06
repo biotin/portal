@@ -8,7 +8,7 @@ Portal::Application.routes.draw do
   resources :users
 
   resources :news
-
+  match "/index" => "news#index", :as => "index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

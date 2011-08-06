@@ -1,3 +1,9 @@
 Simple Company Projetc with News.
 Rails 3.0.9
+
+Application Controller
+# before_filter :authorize 
+# Activate this comment then pushing in to the server, after adding admin-user.
+
+
 http://stark-robot-869.heroku.com/
